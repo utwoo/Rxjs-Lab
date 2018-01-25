@@ -1,0 +1,25 @@
+{
+  "name": "rxjs-lab",
+  "version": "1.0.0",
+  "description": "Rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utwoo/Rxjs-Lab.git"
+  },
+  "keywords": [
+    "Rxjs"
+  ],
+  "author": "utwoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utwoo/Rxjs-Lab/issues"
+  },
+  "homepage": "https://github.com/utwoo/Rxjs-Lab#readme",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  }
+}
