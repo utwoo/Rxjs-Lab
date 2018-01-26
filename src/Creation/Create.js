@@ -28,7 +28,7 @@ var observable = Rx.Observable.create(observer => {
 });
 
 console.log('-- sync start --');
-var subsciprion = observable.subscribe({
+var subsciption = observable.subscribe({
     next: x => { console.log(x) },
     error: error => { console.log('Error:', error); },
     complete: () => { console.log('complete'); }
@@ -36,5 +36,5 @@ var subsciprion = observable.subscribe({
 console.log('-- sync end --');
 
 setTimeout(() => {
-    subsciprion.unsubscribe();
+    subsciption.unsubscribe();
 }, 5000);
